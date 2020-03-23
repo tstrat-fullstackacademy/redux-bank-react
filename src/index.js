@@ -1,10 +1,6 @@
-const balance = document.getElementById("balance");
-const deposit5 = document.getElementById("deposit5");
-const deposit25 = document.getElementById("deposit25");
-const withdraw5 = document.getElementById("withdraw5");
-const withdraw25 = document.getElementById("withdraw25");
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-deposit5.onclick = () => console.log("Deposit 5");
-deposit25.onclick = () => console.log("Deposit 25");
-withdraw5.onclick = () => console.log("Withdraw 5");
-withdraw25.onclick = () => console.log("Withdraw 25");
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
